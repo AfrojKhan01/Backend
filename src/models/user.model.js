@@ -13,7 +13,7 @@ const userSchema = new Schema(
             trim: true,
             index: true
         },
-        eamil: {
+        email: {
             type: String,
             required: true,
             unique: true,
